@@ -1,0 +1,170 @@
+html{
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+body{
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+    
+
+}
+body{
+    background-color: white;;
+}
+
+.starter{
+background:url('high.png');
+height:600px;
+margin-top:30px;
+background-color:#0A97AC;
+background-size:cover;
+background-repeat: no-repeat;}
+.circle {
+    -webkit-animation: circle-function 10s linear infinite;
+       -moz-animation: circle-function 10s linear infinite;
+         -o-animation: circle-function 10s linear infinite;
+            animation: circle-function 10s linear infinite;
+            height:500px;
+            width:500px;
+            margin:0px auto;
+            
+            position:absolute;
+            top:20px;
+            left:20%;
+            
+  }
+  
+  @-webkit-keyframes circle-function {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @-moz-keyframes circle-function {
+    from {
+      -moz-transform: rotate(0deg);
+    }
+    to {
+      -moz-transform: rotate(360deg);
+    }
+  }
+  @-o-keyframes circle-function {
+    from {
+      -o-transform: rotate(0deg);
+    }
+    to {
+      -o-transform: rotate(360deg);
+    }
+  }
+.text{
+    font-size:500%;
+    font-family:'Oswald',sans-serif;
+    position:absolute;
+    top:100px;
+    text-align:center;
+    
+}
+.info{
+    height:500px;
+    background: url('color.png');
+    background-repeat:no-repeat;
+    background-position: right bottom;
+
+}
+.main{
+    
+}
+.man{
+    -webkit-animation:run 10s linear infinite;
+    -moz-animation: run 10s linear infinite;
+    position:absolute;
+}
+@-webkit-keyframes run {
+    0% { left: 0;}
+    100%{ left : 100%;}
+}
+@-moz-keyframes run {
+    0% { left: 0;}
+    100%{ left : 100%;}
+}
+.abt{
+    border:2px solid black;
+
+}
+.abt:hover{
+    border:2px solid #FAA317;
+}
+.cultural{
+    
+    background:url('ev.png');
+    background-size:cover;
+    background-position:right;
+}
+.tech{
+    
+    
+    margin-top:70px;
+    background-repeat: none;
+    background-size:cover;
+    background-position:center;
+}
+.team{
+    
+   background:#DCE2E3    ;
+    background-size:cover;
+    background-position:center;
+}
+.eventstech{
+    font-family:'Oswald',sans-serif;
+    font-size:250%;
+    padding-top:10px;
+    padding-bottom:10px;
+    
+}
+@media screen and (max-width :29.99em){
+    .circle{
+        display: none;
+    }
+    .anime{
+        display:none;
+    }
+    .carnival{
+        display: none;
+    }
+    .about{
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .techno{
+        padding-bottom: 50px;
+    }
+    #tech{
+        display:none;
+    }
+    #cult{
+        display:none;
+    }
+    #workshop{
+        display: none;
+    }
+    .techtext{
+        display: none;
+    }
+    #start{
+        background-image: url('mobile.jpg');
+    }
+    .board{
+        display:none;
+    }
+}
+@media screen and (min-width:60em) and (max-width:89.99em){
+    .about{
+        padding-left:150px;
+        padding-right:150px;
+    }
+    
+    
+
+}

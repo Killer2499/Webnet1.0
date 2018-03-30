@@ -1,0 +1,574 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+ integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<link rel="icon" href="logo.png" type="image/gif" sizes="16x16">
+<link href="https://fonts.googleapis.com/css?family=Anton|Itim|Oswald" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Courgette|Dosis|Great+Vibes" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Chicle" rel="stylesheet">
+<link rel="stylesheet" href="animate.css">
+<script src="wow.min.js"></script>
+             <script>
+             new WOW().init();
+             </script>
+<link rel="stylesheet" href="home.css">
+<title>Web Net</title>
+<style>
+    
+    a:link{
+        text-decoration: none;
+    }
+    a:visited{
+        text-decoration: none;
+    }
+    .img1{
+        background:url("code.gif");
+        height:500px;
+    }
+     .navbar-nav {
+    float:none;
+    margin:0 auto;
+    text-align: center;
+}
+body{
+    position: relative;
+}
+.navbar a:link:hover{
+    color:black;
+    background:#18799C;
+    border-radius:5px;
+}
+
+.scrollspy-example {
+  position: relative;
+  height: 375px;
+  overflow: auto;
+}
+@media screen and (min-width:30em)and (max-width:59.99em){
+ .circle{
+     display:none;
+ }
+ .one{
+    display:none;
+
+ }
+ .techtext{
+        display: none;
+    }
+ .arr1{
+        display:none;
+    }
+    .arr2{
+        display:none;
+    }
+    .arr3{
+        display:none;
+    }
+    .arr4{
+        display:none;
+    }
+    .arr5{
+        display:none;
+    }
+    .arr6 {
+        display:none;
+    }
+    .footdet{
+        text-align:center;
+    }
+    #start{
+        background-image: url('mobile.jpg');
+    }
+    .board{
+        display:none;
+    }
+}
+@media screen and (min-width:60em)and (max-width:69.99em){
+ 
+ .one{
+     display:none;
+ }
+ .two{
+display:none;
+ }
+ .info{
+     background:white;
+     padding-right:0px;
+     text-align:right;
+ }
+ .circle img{
+     height:400px;
+ }
+ .circle{
+     left:10%;
+ }
+ .techtext{
+        display: none;
+    }
+    .board{
+        display:none;
+    }
+
+}
+
+@media screen and (max-width :29.99em){
+    .arr1{
+        display:none;
+    }
+    .arr2{
+        display:none;
+    }
+    .arr3{
+        display:none;
+    }
+    .arr4{
+        display:none;
+    }
+    .arr5{
+        display:none;
+    }
+    .arr6{
+        display:none;
+    }
+    .footdet{
+        text-align:center;
+    }
+    .board{
+        display:none;
+    }
+    
+}
+
+</style>
+</head>
+<body>
+        <!--<div class="music" style=""><audio id="player" src="m.mp3" loop></audio></div>
+        <div class="sound" style="position:fixed;">
+            <button onclick="document.getElementById('player').play() " style="
+            height:20px;width:20px;background-position:center;background-size:cover;"><img src="play.png"></button>
+            <button onclick="document.getElementById('player').pause()"></button>
+        </div> -->
+        
+    <div class="container" id="container" style="">
+        
+            <body data-spy="scroll" data-target=".navbar" data-offset="50" style="">
+
+
+                    <nav class="navbar navbar-expand-sm navbar-light sticky-top navbar-right" style="background:url('nav.png');
+                    background-size:cover;background-position:cover;border-bottom:2px solid black;">
+                      <div class="container">
+                      <button class="navbar-toggler"style="border-color:white;background:white;" type="button"  data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon" style="border-color:white;  background-color:white;" ></span>
+                      </button>
+                      <div class="collapse navbar-collapse " id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item"  >
+                            <a class="nav-link" href="#main" style="font-family: 'Oswald', sans-serif;font-size:150%;">Home <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#about" style="font-family: 'Oswald', sans-serif;font-size:150%;">About </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#cultural" style="font-family: 'Oswald', sans-serif;font-size:150%;">Cultural</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#technical" style="font-family: 'Oswald', sans-serif;font-size:150%;">Technical</a>
+                          </li>
+                          <li class="nav-item">
+                                <a class="nav-link" href="#team" style="font-family: 'Oswald', sans-serif;font-size:150%;">Team</a>
+                              </li>
+                          <li class="nav-item">
+                                <a class="nav-link" href="#sponsor" style="font-family: 'Oswald', sans-serif;font-size:150%;">Sponsers</a>
+                              </li>
+                         
+                        <li class="nav-item">
+                                        <a class="nav-link" href="#footer" style="font-family: 'Oswald', sans-serif;font-size:150%;">Connect</a>
+                         </li>
+                        </ul>
+                      </div>
+                    </nav>   
+                    <span class="arr1"style="position:absolute;top:550px;right:-20px;;"><a class="nav-link" href="#about" style="font-family: 'Oswald', sans-serif;font-size:150%;">
+                            <img src="arrow.gif" style="height:100px;width:100px;"></a>
+                        </span>
+                        <span class="arr2" style="position:absolute;top:1100px;right:20px;;"><a class="nav-link" href="#cultural" style="font-family: 'Oswald', sans-serif;font-size:150%;">
+                                <img src="arrow.gif" style="height:100px;width:100px;">
+                        </a>
+                        </span>
+                        <span class="arr3" style="position:absolute;top:1780px;right:-20px;;"><a class="nav-link" href="#technical" style="font-family: 'Oswald', sans-serif;font-size:150%;">
+                                <img src="arrow.gif" style="height:100px;width:100px;">
+                        </a>
+                        </span>
+                        <span class="arr4" style="position:absolute;top:3100px;right:20px;;"><a class="nav-link" href="#sponsor" style="font-family: 'Oswald', sans-serif;font-size:150%;">
+                            <img src="arrow.gif" style="height:100px;width:100px;"></a>
+                        </span>
+                        <!--<span class="arr5" style="position:absolute;top:3620px;right:0px;;"><a class="nav-link" href="#footer" style="font-family: 'Oswald', sans-serif;font-size:150%;">
+                            <img src="arrow.gif" style="height:100px;width:100px;"></a>
+                        </span>-->
+                        <span class="arr6" style="position:absolute;top:4200px;right:0px;;"><a class="nav-link" href="#container" style="font-family: 'Oswald', sans-serif;font-size:150%;">
+                                <img src="arrowup.png" style="height:60px;width:60px;"></a>
+                            </span>               
+                  </div>
+              </div>
+              <div class="row" style="position: absolute;left:47%;padding-top:10px;">
+              <img src="techlog.png" style="height:120px;" class="img-fluid"/></div>
+              <div class="starter" id="start">
+                  <div class="tech" style="float:left;color:white;font-family: 'Chicle', cursive;font-size:150%;padding-top:50px;">
+                      <h1 style="font-size:300%;text-align:center;color:#8DC0F7">Eureka</h1>
+                      <p style="color:black;">Annual Techno Cultural Fest of IIIT-Kalyani<br/>
+                          Come Join us to break your Threshold!!!<br/>
+                          Sed ut perspiciatis, unde omnis iste natus<br/> error sit voluptatem accusantium <br/> 
+                      </p>
+                      <!--<button class="btn abt" type="submit" style="font-size:150%;
+                      margin-top:20px;margin-left:70px;border:none;background:yellow;font-family:'Oswald',sans-serif;
+                      ">Join Us</button>-->
+                      <p style="padding-left:30px;padding-top:20px;"> <i class="fab fa-3x fa-facebook-f fb" style=""></i>&nbsp;&nbsp;&nbsp;
+                        <i class="fab fa-3x fa-twitter"></i>&nbsp;&nbsp;&nbsp;
+                        <i class="fab fa-3x fa-youtube" style=""></i></p></div>
+                        
+                      <div id="tech" style="float:right;padding-top:10px;">
+                            <img src="faq.png" style="height:100px;margin-top:10px;" class="img-fluid"/>
+                        </div>
+                        
+                        <div id="tech1" class="menu1"style="float:right;display:none;" >
+                                <a  style="font-family:'Oswald',sans-serif;color:white;
+                                position:absolute;top:150px;right:100px;font-size:130%;" class="img-fluid" href="#">How to Reach</a>
+                        </div>
+                        <div class="techtext" style="float:right;position: absolute;right:300px;top:200px;font-size:300%;
+                        color:white;font-family: 'Chicle', cursive;">Techno Events!!!</div>
+                        <div class="techtext" style="float:right;position: absolute;right:270px;top:400px;font-size:300%;
+                        color:white;font-family: 'Chicle', cursive;">Cultural Events!!!</div>
+                        <div class="techtext" style="float:right;position: absolute;right:300px;top:550px;font-size:300%;
+                        color:white;font-family: 'Chicle', cursive;">Workshops</div>
+                        <div id="cult" style="float:right;padding-top:10px;">
+                                <img src="speaker.png" style="height:100px;margin-top:10px;position:absolute;top:280px;right:0px;" class="img-fluid"/>
+                            </div>
+                            <div id="cultural1" class="cultural1"style="float:right;display:none;" >
+                                    <img src="eve.jpg" style="height:80px;position:absolute;top:210px;right:0px;border-radius:50%" class="img-fluid"/>
+                                    <img src="eve.jpg" style="height:80px;position:absolute;top:290px;right:100px;border-radius:50%" class="img-fluid"/>
+                                    <img src="eve.jpg" style="height:80px;position:absolute;top:380px;right:0px;border-radius:50%" class="img-fluid"/>
+                            </div>
+                         <div id="workshop" style="float:right;padding-top:10px;">
+                                    <img src="highlight.png" style="height:100px;margin-top:10px;position:absolute;top:450px;right:0px;" class="img-fluid"/>
+                                </div>
+                         <div id="workshop1" class="workshop1"style="float:right;display:none;" >
+                                        <img src="code.gif" style="height:80px;position:absolute;top:380px;right:0px;border-radius:50px" class="img-fluid"/>
+                                        <img src="game.gif" style="height:100px;position:absolute;top:470px;right:100px;border-radius:50px" class="img-fluid"/>
+                                        <img src="music.jpg" style="height:70px;position:absolute;top:550px;right:0px;border-radius:50px" class="img-fluid"/>
+                         </div>
+                  </div>
+                  
+                </div>
+                 
+                        
+                        <div class="about"  id="about"style="background:#ffc971;padding-top:100px;padding-bottom:100px;">
+                                
+                        <div class="container"> <h1 style="text-align:center;font-family:'Oswald',sans-serif;color:#ED9303;">ABOUT US</h1>
+                           <p style="font-size:150%;text-align:center;font-family:'Dosis',sans-serif;
+                           ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                               sed do eiusmod tempor incididunt ut labore et dolore magna 
+                               aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                                 totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt,
+                                  explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur   sed quia non-numquam .</p>
+                                  <div class="text-center">
+                                  <button type="button" class="btn  abt" style="background:#ffc971;">Know More</button></div>
+                        </div>
+                        
+                         </div>
+                        
+                    <div class="cultural"  id="cultural"style="background-color:white;">
+                        <div class="row">
+                        <div class="col-md-9 carnival">
+                            <img src="back.png" class="img-fluid" style="">
+                        </div>
+                        <div class="col-md-3">
+                            <span style="margin:0px auto;
+                            font-family:'Oswald',sans-serif;font-size:250%;color:white;">Cultural Events</span>
+                        <div class="cultevent" style="">
+                            <div class="wow fadeIn row" data-wow-duration="2s" data-wow-delay="2s" style="padding-bottom:10px;
+                            padding-right:10px;padding-top:20px;">
+                                <div class="col-md-12">
+                                    <div class="card" style="background:url('dance.jpg');height:100px;background-position:center;
+                                    background-size:cover;">
+                
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" wow fadeIn row" data-wow-duration="2s" data-wow-delay="4s" style="padding-bottom:10px;padding-right:10px;">
+                                    <div class="col-md-12">
+                                            <div class="card" style="background:url('music.jpg');height:100px;background-position:center;
+                                            background-size:cover;padding-bottom:10px;">
+                        
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="row wow fadeIn" data-wow-duration="2s" data-wow-delay="6s" style="padding-bottom:10px;padding-right:10px;">
+                                        <div class="col-md-12">
+                                                <div class="card" style="background:url('art.jpg');height:100px;background-position:center;
+                                                background-size:cover;padding-bottom:10px;">
+                            
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="row wow fadeIn" data-wow-duration="2s" data-wow-delay="8s" style="padding-bottom:10px;padding-right:10px;">
+                                            <div class="col-md-12">
+                                                    <div class="card" style="background:url('drama.jpg');height:100px;background-position:center;
+                                                    background-size:cover;padding-bottom:10px;">
+                                
+                                                    </div>
+                                            </div>
+                                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        <div class=" wow man" style="">
+                        <img src="man.gif" style="height:100px;width:100px;margin-top:-90px;border-bottom:2px solid black;"></div>
+                        <img src="mile.png" style="position:absolute;left:20%; height:50px;width:50px;margin-top:20px;" class="img-fluid">
+                        <img src="mile.png" style="position:absolute;left:40%; height:50px;width:50px;margin-top:20px;" class="img-fluid">
+                        <img src="mile.png" style="position:absolute;left:60%; height:50px;width:50px;margin-top:20px;" class="img-fluid">
+                        <img src="mile.png" style="position:absolute;left:80%; height:50px;width:50px;margin-top:20px;" class="img-fluid">
+                    
+                    </div>
+                 
+                        <div class="tech" id="technical">
+                            <div class="details" style="">
+                                <div class="row">
+                                    <div class="col-md-5 col-xs-5 techno" style="background:#ffc971;text-align:center;padding-top:150px;padding-bottom:100px;">
+                                        <span style="text-align:center;font-size:300%;margin-right:0px;
+                                        font-family:'Anton',sans-serif;color:#ED9303;">Technical Events</span>
+                        
+                                            <div class="eventstech">
+                                            <h1><a id="robotics" href="#technical">Robotics</a></h1>
+                                            </div>
+                        
+                                            <div class="eventstech">
+                                                    <h1><a id="junkyard" href="#technical">Junkyard Wars</a></h1>
+                                            </div>
+                        
+                                            <div class="eventstech">
+                                                    <h1><a id="hackathon" href="#technical">Hackathon</a></h1>
+                                                    </div>
+                                            <div class="eventstech">
+                                                            <h1><a  id="workshop2" href="#technical">Workshops</a></h1>
+                                                            </div>
+                                        
+                                
+                                
+                        
+                        
+                        
+                                    </div>
+                                        <div class="col-md-7 col-xs-7" style="" id="display" style="margin-left:-20px;">
+                                            <img src="events.gif"class='img-fluid' style='height:630px;width:100%;'>                                              
+                                        </div>
+                        
+                                </div>
+                                
+                        
+                            </div>
+                        
+                        </div>
+                    
+              </div>
+              
+              <div class="team"  id="team" style="padding-top:20px;padding-bottom:50px;font-family:'Dosis',sans-serif;">
+                  
+                    <div class="container">
+        
+                            <h1 style="font-size:350%;font-family:'Oswald',sans-serif;text-align:center;" class="">The Team</h1>
+                            <div class="line" style="height:2px;width:100px;background:yellow;margin:0px auto"></div>
+                            <p style="font-size:150%;font-family:'Dosis',sans-serif;padding-top:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna 
+                             aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                             Exce.</p>
+                        
+                             <div class="row" style="padding-top:10px;">
+                               <div class="col-md-3" style="text-align:center;padding:10px;">
+                                 <div class="row">
+                                 <img src="eve.jpg" style="height:200px;margin:0px auto;border-radius:10px" class="img-fluid">
+                                 </div>
+                                 <div class="row" style="padding:10px;font-family:'Dosis',sans-serif;font-size:130%;text-align:center;">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna   
+                                    <i class="fab fa-3x  fa-github" style="margin-left:20px"></i>&nbsp;&nbsp;     &nbsp;&nbsp; 
+                                    <i class="fab fa-3x fa-facebook-square"></i>  &nbsp;&nbsp;  &nbsp;&nbsp;
+                                    <i class="fab fa-3x fa-twitter-square"></i>          
+                                  </div>
+                               </div>
+                               <div class="col-md-3" style="text-align:center;padding:10px;">
+                                  <div class="row">
+                                  <img src="eve.jpg" style="height:200px;margin:0px auto;border-radius:10px" class="img-fluid">
+                                  </div>
+                                  <div class="row" style="padding:10px;font-family:'Dosis',sans-serif;font-size:130%;">
+                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                     sed do eiusmod tempor incididunt ut labore et dolore magna   
+                                     <i class="fab fa-3x  fa-github" style="margin-left:20px"></i>&nbsp;&nbsp;     &nbsp;&nbsp; 
+                                     <i class="fab fa-3x fa-facebook-square"></i>  &nbsp;&nbsp;  &nbsp;&nbsp;
+                                     <i class="fab fa-3x fa-twitter-square"></i>                     
+                                   </div>
+                                </div>
+                                <div class="col-md-3" style="text-align:center;padding:10px;">
+                                    <div class="row" >
+                                    <img src="eve.jpg" style="height:200px;margin:0px auto;border-radius:10px" class="img-fluid">
+                                    </div>
+                                    <div class="row" style="padding:10px;font-family:'Dosis',sans-serif;font-size:130%;">
+                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                       sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                       <i class="fab fa-3x  fa-github" style="margin-left:20px"></i>&nbsp;&nbsp;     &nbsp;&nbsp; 
+                                       <i class="fab fa-3x fa-facebook-square"></i>  &nbsp;&nbsp;  &nbsp;&nbsp;
+                                       <i class="fab fa-3x fa-twitter-square"></i>                       
+                                     </div>
+                                  </div>
+                                  <div class="col-md-3" style="text-align:center;padding:10px;">
+                                      <div class="row">
+                                      <img src="eve.jpg" style="height:200px;margin:0px auto;border-radius:10px" class="img-fluid">
+                                      </div>
+                                      <div class="row" style="padding:10px;font-family:'Dosis',sans-serif;font-size:130%;">
+                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                         sed do eiusmod tempor incididunt ut labore et dolore magna  
+                                         <i class="fab fa-3x  fa-github" style="margin-left:20px"></i>&nbsp;&nbsp;     &nbsp;&nbsp; 
+                                         <i class="fab fa-3x fa-facebook-square"></i>  &nbsp;&nbsp;  &nbsp;&nbsp;
+                                         <i class="fab fa-3x fa-twitter-square"></i>                      
+                                       </div>
+                                    </div>
+                             </div>
+                
+                        </div>
+                
+            </div>
+            <div class="sponser"id="sponsor" style="padding-top:30px;padding-bottom:50px;">
+                    <div class="row" style="">
+                    <span style="font-size:600%;font-family:'Oswald',sans-serif;margin:0px auto;">Sponsors</span>
+                    </div>
+                    <div class="container">
+                        <div class="row" style="padding:20px;">
+                            <div class="col-md-3 col-xs-12 wow animated fadeIn" data-wow-duration="2s" data-wow-delay="0s" style="text-align:center;">
+                              <img src="fb.png" class="img-fluid" style="height:200px;width:200px;">
+                            </div>
+                            <div class="col-md-3 col-xs-12 wow animated fadeIn" data-wow-duration="2s" data-wow-delay="0s" style="text-align:center;">
+                                  <img src="moz.png" class="img-fluid" style="height:200px;width:200px;">
+                            </div>
+                            <div class="col-md-3 col-xs-12 wow animated fadeIn" data-wow-duration="2s" data-wow-delay="0s"  style="text-align:center;">
+                                  <img src="dom.png" class="img-fluid" style="height:200px;width:200px;">
+                                
+                            </div>
+                            <div class="col-md-3 col-xs-12 wow animated fadeIn" data-wow-duration="2s" data-wow-delay="0s"  style="text-align:center;">
+                                  <img src="hero.png" class="img-fluid" style="height:200px;width:200px;">
+                                
+                            </div>
+                        </div>
+                        <div class="row" style="padding:20px; "  style="text-align:center;">
+                              <div class="col-md-3 wow animated fadeIn" data-wow-duration="2s" data-wow-delay="2s">
+                                <img src="ola.png" class="img-fluid">
+                              </div>
+                              <div class="col-md-3 wow animated fadeIn" data-wow-duration="2s" data-wow-delay="2s">
+                                    <img src="times.png" class="img-fluid"  style="text-align:center;">
+                              </div>
+                              <div class="col-md-3 wow animated fadeIn" data-wow-duration="2s" data-wow-delay="2s">
+                                    <img src="sub.png" class="img-fluid"  style="text-align:center;">
+                                  
+                              </div>
+                              <div class="col-md-3 wow animated fadeIn" data-wow-duration="2s" data-wow-delay="2s">
+                                    <img src="witty.png" class="img-fluid"  style="text-align:center;">
+                                  
+                              </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="img"><img src="foot.png" style="width:100%;margin-bottom:-40px;height:500px;" class="img-fluid"/>
+                <img src="board.png" class="img-fluid board" style="height:150px;margin-top:-150px;"/></div>
+                <div class="footer" id="footer" style="background:black;padding-top:100px;">
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                       <h2 style="color:white;font-family:'Oswald',sans-serif;font-size:200%;
+                       color:red;">Stay Connected</h2>
+                       <p style="font-family:'Oswald',sans-serif;color:white;font-size:120%;">Join us to get out latest updates</p>
+                       <nav class="navbar navbar-light bg" style="padding-left:0px;">
+                        <form class="form-inline">
+                          <input class="form-control mr-sm-2" type="search" placeholder="Email Address" aria-label="Search">
+                          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Join Us</button>
+                        </form>
+                      </nav>
+                     
+                          
+                    </div>
+                    <div class="col-md-4">
+                        <h2 style="color:white;font-family:'Oswald',sans-serif;font-size:200%;text-align:center;
+                        color:red;">Eureka</h2>
+                        <p style="font-family:'Oswald',sans-serif;color:white;font-size:120%;"
+                        >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                    </div>
+                    <div class="col-md-4 footdet">
+                        <h1 style="color:white;font-family:'Oswald',sans-serif;font-size:200%;text-align:center;
+                        color:red;">Can u make it out in time</h1>
+                        <div id="countdown" style="color:white;font-family:'Oswald',sans-serif">
+                            <div class="row">
+                                <div class="col-md-3 col-xs-3 col-sm-3" style="text-align:center;">
+                                <div id="days" style="text-align:center;font-size:250%;"></div>
+                                <h3>Days</h3>
+                            </div>
+                            <div class="col-md-3 col-xs-3 col-sm-3"  style="text-align:center;">
+                                    <div id="hours" style="text-align:center;font-size:250%;"></div>
+                                    <h3>hours</h3>
+                                </div>
+                                <div class="col-md-3 col-xs-3 col-sm-3"  style="text-align:center;">
+                                        <div id="minutes" style="text-align:center;font-size:250%;"></div>
+                                        <h3>minutes</h3>
+                                    </div>
+                                    <div class="col-md-3 col-xs-3 col-sm-3"  style="text-align:center;">
+                                            <div id="seconds" style="text-align:center;font-size:250%;"></div>
+                                            <h3>seconds</h3>
+                                        </div>
+                            </div>
+                        </div>
+                                                 
+                        <style>
+                            .fa-facebook-f:hover,.fa-facebook-square:hover{
+                                color:#055CD2;
+                            }
+                            .fa-twitter:hover,.fa-twitter-square:hover{
+                                color:02D4E5;
+
+                            }
+                            .fa-youtube,.fa-facebook-f,.fa-twitter{
+                                color:#8DC0F7  ;
+                            }
+                            .fa-youtube:hover{
+                                color:red;
+
+                            }
+                            .fa-github,.fa-facebook-square,.fa-twitter-square{
+                                color:black;
+                            }
+                            .fa-github:hover{
+                                color:#949292;
+                            }
+                        </style>
+                                
+                    </div>
+                </div>
+               </div>
+            </div>
+
+             
+            </body> 
+   
+            <script src="webnet.js"></script>
+            <src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+</body>
+</html>
