@@ -67,7 +67,7 @@ $(document).ready(function(){
 });
 
 
-var festDate = new Date("Apr 28, 2018 00:00:00").getTime();
+var festDate = new Date("Aug 1, 2018 00:00:00").getTime();
 var x = setInterval(function() {
 
   var present = new Date().getTime();
